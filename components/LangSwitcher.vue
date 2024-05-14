@@ -1,6 +1,6 @@
 <template>
-    <div class="language-selector">
-      <select v-model="selectedLanguage" @change="changeLanguage">
+    <div class="language-selector pb-1 border-slate-200	rounded-sm">
+      <select v-model="selectedLanguage" @change="changeLanguage" class="mt-1.5 w-full rounded-lg border-gray-300 text-gray-700 sm:text-sm">
         <option v-for="locale in supportedLocales" :key="locale.code" :value="locale.code">{{ locale.name }}</option>
       </select>
     </div>

@@ -1,13 +1,12 @@
+
 <template>
-   
-   <div>
-        <LangSwitcher />
-    </div>
+<div  :dir="$i18n.locale === 'ar' ? 'rtl' : 'ltr'">
+   <Navbar />
+</div>
    <div>
     <slot />
    </div>
-</template>
-
+ </template>
 <script setup>
 
 </script>
