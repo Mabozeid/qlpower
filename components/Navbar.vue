@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-white border-b border-slate-200 py-2">
+    <header class="bg-white border-b border-slate-200 py-2 fixed top-0 left-0 right-0 z-50">
       <div class="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
         <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img
@@ -9,7 +9,7 @@
           />
     </a>
     
-        <div class="flex flex-1 items-center justify-end md:justify-between">
+        <div class="flex flex-1 items-center justify-end md:justify-between navVarMenu">
           <nav aria-label="Global" class="hidden md:block">
             <ul class="flex items-center gap-6 text-sm">
               <li>
@@ -41,7 +41,7 @@
           <div class="flex items-center gap-4">
             <div class="sm:flex sm:gap-4">
               <a
-                class="block rounded-md bg-yellow-400 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"
+                class="block rounded-md bg-yellow-400 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-stone-700 hover:text-white"
                 href="#"
               >
               {{$t("login")}}
@@ -84,10 +84,15 @@
      <slot />
     </div>
   </template>
-  <script setup>
+<script>
 
 </script>
 
-<style lang="scss" scoped>
-
+<style>
+.navVarMenu a{
+  color: #333;
+  font-size: 18px;
+  letter-spacing: 0.25px;
+  
+}
 </style>

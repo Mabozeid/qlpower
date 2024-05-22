@@ -6,6 +6,10 @@
    <div>
     <slot />
    </div>
+
+<div :dir="$i18n.locale === 'ar' ? 'rtl' : 'ltr'">
+   <Footer />
+</div>
  </template>
 <script setup>
 

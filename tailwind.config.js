@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: { fontFamily: {
+      'sans': ["Raleway", "sans-serif"],
+      'sans': ["Cairo", "sans-serif"],
+    },
+    // backgroundImage: {
+    //   ""
+    // }
+  },
   },
   plugins: [],
 }

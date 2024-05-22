@@ -20,6 +20,10 @@ export default defineNuxtConfig({
         name: 'العربية',
         file: 'ar.json'
       },
-    ]
-}
+    ],
+    vueI18n: "fefgrtg",   
+},
+plugins: [
+  '~/plugins/vue-lazyload.js'
+],
 })
