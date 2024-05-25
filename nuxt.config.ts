@@ -3,10 +3,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', "@nuxtjs/i18n"],
   i18n: {
-    strategy: "prefix_and_default",
-    lazy: true,
+    strategy: "no_prefix",
+    lazy: false,
     langDir: 'locales/',
-    defaultLocale: 'en',  
+    defaultLocale: 'en',
     locales: [
       {
         code: 'en',

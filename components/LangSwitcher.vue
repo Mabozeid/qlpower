@@ -4,15 +4,20 @@
         <option v-for="locale in supportedLocales" :key="locale.code" :value="locale.code">{{ locale.name }}</option>
       </select>
     </div>
-  </template>
+</template>
   
-  <script>
+<script>
   export default {
     data() {
       return {
         selectedLanguage: this.$i18n.locale,
         supportedLocales: this.$i18n.locales
       };
+    },
+    beforeMount(){
+      const locale = localStorage.getItem('selectedLanguage') || 'en';
+      this.selectedLanguage = locale
+      this.$i18n.locale = locale;
     },
     methods: {
       changeLanguage() {
@@ -22,9 +27,9 @@
         localStorage.setItem('selectedLanguage', this.selectedLanguage);
       },
       logTranslation(key) {
-    console.log('Translation Key:', key);
-    return this.$t(key);
-  }
+        console.log('Translation Key:', key);
+        return this.$t(key);
+      }
     }
   };
   </script>
