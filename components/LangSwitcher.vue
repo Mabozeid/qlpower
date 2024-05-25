@@ -19,7 +19,7 @@
       this.selectedLanguage = locale
       this.$i18n.locale = locale;
     },
-    methods: {
+    methods: { 
       changeLanguage() {
         console.log('Selected Language:', this.selectedLanguage);
         this.$i18n.locale = this.selectedLanguage;
