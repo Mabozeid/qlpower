@@ -1,11 +1,11 @@
 <template>
-    <section class="py-6" :dir="$i18n.locale === 'ar' ? 'rtl' : 'ltr'">
+    <section class="py-6" id="about" :dir="$i18n.locale === 'ar' ? 'rtl' : 'ltr'"  data-aos="fade-up">
       <div class="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div class="bg-stone-500	p-8 md:p-12 lg:px-16 lg:py-24">
             <div class="mx-auto max-w-xl text-center">
               <h2 class="text-2xl font-bold text-yellow-400 md:text-3xl">
-                Low Voltage Electrical Panel
+                {{$t("lvPanel")}} 
               </h2>
     
               <p class="hidden text-white/90 sm:mt-4 sm:block">
@@ -19,7 +19,7 @@
                   href="#"
                   class="inline-block rounded border border-white bg-white px-12 py-3 text-sm font-medium text-yellow-400 transition hover:bg-yellow-500 hover:text-white focus:outline-none focus:ring focus:ring-yellow-400"
                 >
-                  Get Started Today
+                {{$t("lvstarted")}} 
                 </a>
               </div>
             </div>

@@ -40,7 +40,7 @@
             </a>
     
             <a
-              class="block w-full rounded border border-white px-12 py-3 text-sm font-medium text-white hover:bg-yellow-400 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
+              class="block w-full rounded border border-white px-12 py-3 bg-white text-sm font-medium text-stone-500	 hover:bg-yellow-400 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
               href="#"
             >
             {{$t("cta-two")}} 

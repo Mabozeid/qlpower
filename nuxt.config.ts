@@ -1,7 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  css: [
+    '~/assets/swiper.css'
+  ],
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', "@nuxtjs/i18n"],
+  modules: ['@nuxtjs/tailwindcss', "@nuxtjs/i18n", 'nuxt-aos', 'nuxt-swiper'],
   i18n: {
     strategy: "no_prefix",
     lazy: false,
@@ -21,9 +24,15 @@ export default defineNuxtConfig({
         file: 'ar.json'
       },
     ],
-    vueI18n: "fefgrtg",   
 },
 plugins: [
   '~/plugins/vue-lazyload.js'
 ],
+swiper: {
+  // Swiper options
+  //----------------------
+  // prefix: 'Swiper',
+  // styleLang: 'css',
+  // modules: ['navigation', 'pagination'], // all modules are imported by default
+},
 })

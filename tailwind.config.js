@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: { fontFamily: {
       'sans': ["Raleway", "sans-serif"],
-      'sans': ["Cairo", "sans-serif"],
+      'sans': ["Tajawal", "sans-serif"],
     },
     // backgroundImage: {
     //   ""

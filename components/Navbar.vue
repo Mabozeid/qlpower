@@ -1,64 +1,67 @@
 <template>
     <header class="bg-white border-b border-slate-200 py-2 fixed top-0 left-0 right-0 z-50">
-      <div class="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
-        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+    <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+      <div class="flex h-16 items-center justify-between">
+        <div class="md:flex md:items-center md:gap-12">
+          <a href="#" class="flex items-center rtl:space-x-reverse">
         <img
           src="/public/500NBG.png"
           alt=""
           class="size-12 rounded-lg inline-block"
           />
+          <span class="self-center text-2xl font-bold whitespace-nowrap text-2xl font-bold leading-7 text-yellow-400 sm:truncate sm:text-3xl sm:tracking-tight lg:tracking-widest font-sans inline-block leading-10">QLP</span>
     </a>
-    
-        <div class="flex flex-1 items-center justify-end md:justify-between navVarMenu">
-          <nav aria-label="Global" class="hidden md:block">
+        </div>
+  
+        <div class="hidden md:block">
+          <nav aria-label="Global" class="hidden md:block navVarMenu">
             <ul class="flex items-center gap-6 text-sm">
               <li>
-                <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> {{$t("about")}} </a>
+                <a class="text-stone-500	 transition hover:text-yellow-400" href="#about"> {{$t("about")}} </a>
               </li>
     
               <li>
-                <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> {{$t("careers")}} </a>
+                <a class="text-stone-500	 transition hover:text-yellow-400" href="#"> {{$t("vision")}} </a>
               </li>
     
               <li>
-                <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> {{$t("history")}} </a>
+                <a class="text-stone-500	 transition hover:text-yellow-400" href="#services"> {{$t("services")}} </a>
+              </li>
+
+              <li>
+                <a class="text-stone-500	 transition hover:text-yellow-400" href="#services"> {{$t("our-goals")}} </a>
+              </li>
+
+              <li>
+                <a class="text-stone-500	 transition hover:text-yellow-400" href="#"> {{$t("maintenance")}} </a>
               </li>
     
               <li>
-                <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> {{$t("services")}} </a>
-              </li>
-    
-              <li>
-                <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> {{$t("projects")}} </a>
-              </li>
-    
-              <li>
-                <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> {{$t("blog")}} </a>
+                <a class="text-stone-500	 transition hover:text-yellow-400" href="#"> {{$t("contact us")}} </a>
               </li>
             </ul>
           </nav>
-    
-          <div class="flex items-center gap-4">
-            <div class="sm:flex sm:gap-4">
+        </div>
+  
+        <div class="flex items-center gap-4">
+          <div class="sm:flex sm:gap-4">
               <a
-                class="block rounded-md bg-yellow-400 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-stone-700 hover:text-white"
+                class="block rounded-md bg-yellow-400 px-5 py-2.5 text-sm font-medium transition hover:bg-stone-500 text-white"
                 href="#"
               >
               {{$t("login")}}
               </a>
     
               <a
-                class="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-yellow-400	 transition hover:text-teal-600/75 sm:block"
+                class="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-yellow-400	transition hover:text-teal-600/75 sm:block"
                 href="#"
               >
               {{$t("register")}}
               </a>
             </div>
-    
-            <button
-              class="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden"
-            >
-              <span class="sr-only">Toggle menu</span>
+  
+          <div class="block md:hidden">
+            <button class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
@@ -70,16 +73,15 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             </button>
- 
-            <div>
+          </div>
           <LangSwitcher />
-          </div>
-          
-          </div>
         </div>
       </div>
-    </header>
- 
+    </div>
+  </header>
+  
+
+
     <div>
      <slot />
     </div>
@@ -90,9 +92,10 @@
 
 <style>
 .navVarMenu a{
-  color: #333;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 0.25px;
-  
+  font-family: "Tajawal", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 </style>

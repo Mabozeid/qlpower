@@ -1,12 +1,13 @@
 <template>
     
-  components: { Services },<div>
+   <div :dir="$i18n.locale === 'ar' ? 'rtl' : 'ltr'">
     <Header />
     </div>
 
     <About />
     
-    <services />
+    <Services />
+     <!-- <Swiper /> -->
 </template>
 
 <script setup>

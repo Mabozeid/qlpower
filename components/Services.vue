@@ -1,8 +1,8 @@
 <template>
-    <section class="bg-white text-yellow-500">
+    <section class="bg-white text-yellow-500" id="services" :dir="$i18n.locale === 'ar' ? 'rtl' : 'ltr'">
       <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div class="mx-auto max-w-lg text-center">
-          <h2 class="text-3xl font-bold sm:text-4xl text-slate-900">Kickstart your marketing</h2>
+          <h2 class="text-3xl font-bold sm:text-4xl text-slate-900">{{$t("maintenance-service")}}</h2>
     
           <p class="mt-4 text-stone-500">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aliquam doloribus
@@ -15,24 +15,7 @@
             class="block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="#"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="size-10 text-stone-500"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path d="M12 14l9-5-9-5-9 5 9 5z" />
-              <path
-                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-              />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-              />
-            </svg>
+          <img :src="generators" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
     
             <h2 class="mt-4 text-xl font-bold text-yellow-500">Generators</h2>
     
@@ -46,24 +29,7 @@
             class="block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="#"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="size-10 text-stone-500"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path d="M12 14l9-5-9-5-9 5 9 5z" />
-              <path
-                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-              />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-              />
-            </svg>
+          <img :src="hvacSystem" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
     
             <h2 class="mt-4 text-xl font-bold text-yellow-500">HVAC Systems</h2>
     
@@ -77,24 +43,7 @@
             class="block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="#"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="size-10 text-stone-500"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path d="M12 14l9-5-9-5-9 5 9 5z" />
-              <path
-                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-              />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-              />
-            </svg>
+          <img :src="pumps" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
     
             <h2 class="mt-4 text-xl font-bold text-yellow-500">Pumps</h2>
     
@@ -108,24 +57,7 @@
             class="block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="#"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="size-10 text-stone-500"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path d="M12 14l9-5-9-5-9 5 9 5z" />
-              <path
-                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-              />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-              />
-            </svg>
+          <img :src="transforms" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
     
             <h2 class="mt-4 text-xl font-bold text-yellow-500">Transformers</h2>
     
@@ -139,25 +71,7 @@
             class="block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="#"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="size-10 text-stone-500"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path d="M12 14l9-5-9-5-9 5 9 5z" />
-              <path
-                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-              />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-              />
-            </svg>
-    
+          <img :src="lightCurrent" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
             <h2 class="mt-4 text-xl font-bold text-yellow-500">Light Current</h2>
     
             <p class="mt-1 text-sm text-stone-500">
@@ -170,24 +84,7 @@
             class="block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="#"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="size-10 text-stone-500"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path d="M12 14l9-5-9-5-9 5 9 5z" />
-              <path
-                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-              />
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-              />
-            </svg>
+          <img :src="airCompressors" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
     
             <h2 class="mt-4 text-xl font-bold text-yellow-500">Air Compressors</h2>
     
@@ -202,6 +99,13 @@
   </template>
 
 <script setup>
+
+import generators from '@/assets/icons/004-electric-generator.png'
+import hvacSystem from '@/assets/icons/007-cold.png'
+import pumps from '@/assets/icons/006-water.png'
+import transforms from '@/assets/icons/005-data-transformation.png'
+import lightCurrent from '@/assets/icons/001-innovation.png'
+import airCompressors from '@/assets/icons/003-air-compressor.png'
 
 </script>
 
