@@ -10,10 +10,10 @@
           class="size-12 rounded-lg inline-block"
           />
           <span class="self-center text-2xl font-bold whitespace-nowrap text-2xl font-bold leading-7 text-yellow-400 sm:truncate sm:text-3xl sm:tracking-tight lg:tracking-widest font-sans inline-block leading-10">QLP</span>
-    </a>
+        </a>
         </div>
   
-        <div class="hidden md:block">
+        <div class="hidden md:block sm:h-auto">
           <nav aria-label="Global" class="hidden md:block navVarMenu">
             <ul class="flex items-center gap-6 text-sm">
               <li>
@@ -37,7 +37,7 @@
               </li>
     
               <li>
-                <a class="text-stone-500	 transition hover:text-yellow-400" href="#"> {{$t("contact us")}} </a>
+                <a class="text-stone-500	 transition hover:text-yellow-400" href="#contact"> {{$t("contact us")}} </a>
               </li>
             </ul>
           </nav>
@@ -61,40 +61,26 @@
             </div>
   
           <div class="block md:hidden">
-            <button class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </button>
+          <Togglemenu />
           </div>
           <LangSwitcher />
         </div>
       </div>
     </div>
   </header>
-  
-
 
     <div>
      <slot />
     </div>
-  </template>
-<script>
 
+  </template>
+<script setup>
 </script>
 
 <style>
 .navVarMenu a{
   font-size: 16px;
   letter-spacing: 0.25px;
-  font-family: "Tajawal", sans-serif;
   font-weight: 600;
   font-style: normal;
 }

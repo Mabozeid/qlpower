@@ -6,9 +6,9 @@ module.exports = {
       'sans': ["Raleway", "sans-serif"],
       'sans': ["Tajawal", "sans-serif"],
     },
-    // backgroundImage: {
-    //   ""
-    // }
+    backgroundImage: {
+      'hero-pic': "url('/public/electrician-changes-the-light-bulb-handyman-G5K7XVM.jpg')",
+    }
   },
   },
   plugins: [],

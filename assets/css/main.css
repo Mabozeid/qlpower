@@ -11,8 +11,14 @@ html{
 
 :dir(rtl) 
 {
-*{
-    font-family: "Cairo", sans-serif;
+  *{
+    font-family: "Tajawal", sans-serif;
 }
 }
+/* :dir(ltr) 
+{
+  *{
+    font-family: "Raleway", sans-serif;
+}
+} */
 

@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-white text-yellow-500" id="services" :dir="$i18n.locale === 'ar' ? 'rtl' : 'ltr'">
+    <section class="bg-gray-100 text-yellow-500" data-aos="fade-up" id="services" :dir="$i18n.locale === 'ar' ? 'rtl' : 'ltr'">
       <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div class="mx-auto max-w-lg text-center">
           <h2 class="text-3xl font-bold sm:text-4xl text-slate-900">{{$t("maintenance-service")}}</h2>
@@ -12,7 +12,7 @@
     
         <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <a
-            class="block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            class="block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white"
             href="#"
           >
           <img :src="generators" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
@@ -26,7 +26,7 @@
           </a>
     
           <a
-            class="block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            class="block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white"
             href="#"
           >
           <img :src="hvacSystem" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
@@ -40,7 +40,7 @@
           </a>
     
           <a
-            class="block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            class="block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white"
             href="#"
           >
           <img :src="pumps" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
@@ -54,7 +54,7 @@
           </a>
     
           <a
-            class="block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            class="block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white"
             href="#"
           >
           <img :src="transforms" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
@@ -68,7 +68,7 @@
           </a>
     
           <a
-            class="block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            class="block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white"
             href="#"
           >
           <img :src="lightCurrent" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
@@ -81,7 +81,7 @@
           </a>
     
           <a
-            class="block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            class="block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white"
             href="#"
           >
           <img :src="airCompressors" alt="My Icon"  class="size-12 rounded-lg inline-block"/>

@@ -1,5 +1,6 @@
 <template>
-    <section class="bg-stone-500 text-white">
+    <section class="  bg-[url('/public/electrician-changes-the-light-bulb-handyman-G5K7XVM.jpg')] hero-img text-white">
+      <div class="overlay"></div>
     <!-- <div>
       <video
       v-if="videoLoaded"
@@ -17,10 +18,10 @@
       class="video-poster"
     />
   </div> -->
-      <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+      <div class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center z-40 relative">
         <div class="mx-auto max-w-3xl text-center">
           <h1
-            class="bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-500 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
+            class="text-3xl font-extrabold text-white sm:text-5xl"
           >
           {{$t("hero-head")}} 
     
@@ -67,5 +68,25 @@
   width: 100%;
   height: auto;
   cursor: pointer;
+}
+.hero-img{
+  background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-position: 50% 50%;
+}
+.overlay{
+ content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: 10;
+  background: rgb(160 220 255);
 }
 </style>

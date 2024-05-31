@@ -1,26 +1,39 @@
 <template>
+  <client-only>
     <Swiper
-      :modules="[SwiperAutoplay, SwiperEffectCreative]"
       :slides-per-view="1"
-      :loop="true"
-      :effect="'creative'"
-      :autoplay="{
-        delay: 8000,
-        disableOnInteraction: true,
-      }"
-      :creative-effect="{
-        prev: {
-          shadow: false,
-          translate: ['-20%', 0, -1],
-        },
-        next: {
-          translate: ['100%', 0, 0],
-        },
-      }"
+      :space-between="10"
+      :pagination="{ clickable: true }"
+      :navigation="true"
+      :autoplay="{ delay: 2500, disableOnInteraction: false }"
     >
-      <SwiperSlide v-for="slide in 10" :key="slide">
-        <strong>{{ slide }}</strong>
+      <SwiperSlide>
+        <img
+              alt=""
+              src="/public//Business-Line-FLS-2-1-1024x786.png"
+              class="h-auto w-full object-cover sm:h-56 md:h-full"
+            />
       </SwiperSlide>
+      <swiper-slide>
+        <img
+              alt=""
+              src="/public/blizzard-cooling-image-25-1000x1000.jpg"
+              class="h-auto w-full object-cover sm:h-56 md:h-full"
+            />
+      </swiper-slide>
+      <swiper-slide>
+        <img
+              alt=""
+              src="/public/electrician-changes-the-light-bulb-handyman-G5K7XVM.jpg"
+              class="h-auto w-full object-cover sm:h-56 md:h-full"
+            />
+      </swiper-slide>
     </Swiper>
-  </template>
-  
+  </client-only>
+</template>
+
+<script setup>
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import 'swiper/swiper-bundle.css';
+
+</script>

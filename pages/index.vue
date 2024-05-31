@@ -7,7 +7,10 @@
     <About />
     
     <Services />
+    <!-- <Testimonials /> -->
+
      <!-- <Swiper /> -->
+   <Contact />
 </template>
 
 <script setup>
