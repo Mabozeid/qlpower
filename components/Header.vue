@@ -1,6 +1,6 @@
 <template>
-    <section class="  bg-[url('/public/electrician-changes-the-light-bulb-handyman-G5K7XVM.jpg')] hero-img text-white">
-      <div class="overlay"></div>
+    <section class="  bg-[url('/public/electrician-changes-the-light-bulb-handyman-G5K7XVM.jpg')] hero-img text-white mt-20">
+      <div class="overlay mt-20	"></div>
     <!-- <div>
       <video
       v-if="videoLoaded"
@@ -84,9 +84,9 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   opacity: 0.5;
   z-index: 10;
-  background: rgb(160 220 255);
+  background:#78716C;
 }
 </style>

@@ -1,8 +1,8 @@
 <template>
-    <section class="bg-gray-100 text-yellow-500" data-aos="fade-up" id="services" :dir="$i18n.locale === 'ar' ? 'rtl' : 'ltr'">
+    <section class="bg-gray-50 text-yellow-500 border border-slate-300" data-aos="fade-up" id="services" :dir="$i18n.locale === 'ar' ? 'rtl' : 'ltr'">
       <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div class="mx-auto max-w-lg text-center">
-          <h2 class="text-3xl font-bold sm:text-4xl text-slate-900">{{$t("maintenance-service")}}</h2>
+          <h2 class="text-3xl font-bold sm:text-4xl text-yellow-500">{{$t("maintenance-service")}}</h2>
     
           <p class="mt-4 text-stone-500">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aliquam doloribus
@@ -17,7 +17,7 @@
           >
           <img :src="generators" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
     
-            <h2 class="mt-4 text-xl font-bold text-yellow-500">Generators</h2>
+            <h2 class="mt-4 text-xl font-bold text-yellow-500">{{$t("generators")}}</h2>
     
             <p class="mt-1 text-sm text-stone-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
@@ -31,7 +31,7 @@
           >
           <img :src="hvacSystem" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
     
-            <h2 class="mt-4 text-xl font-bold text-yellow-500">HVAC Systems</h2>
+            <h2 class="mt-4 text-xl font-bold text-yellow-500">{{ $t("hvacsystem") }}</h2>
     
             <p class="mt-1 text-sm text-stone-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
@@ -45,7 +45,7 @@
           >
           <img :src="pumps" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
     
-            <h2 class="mt-4 text-xl font-bold text-yellow-500">Pumps</h2>
+            <h2 class="mt-4 text-xl font-bold text-yellow-500">{{ $t("pumps") }}</h2>
     
             <p class="mt-1 text-sm text-stone-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
@@ -59,7 +59,7 @@
           >
           <img :src="transforms" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
     
-            <h2 class="mt-4 text-xl font-bold text-yellow-500">Transformers</h2>
+            <h2 class="mt-4 text-xl font-bold text-yellow-500">{{ $t("transformers") }}</h2>
     
             <p class="mt-1 text-sm text-stone-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
@@ -72,7 +72,7 @@
             href="#"
           >
           <img :src="lightCurrent" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
-            <h2 class="mt-4 text-xl font-bold text-yellow-500">Light Current</h2>
+            <h2 class="mt-4 text-xl font-bold text-yellow-500"> {{ $t("lightcurrent") }}</h2>
     
             <p class="mt-1 text-sm text-stone-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
@@ -86,7 +86,7 @@
           >
           <img :src="airCompressors" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
     
-            <h2 class="mt-4 text-xl font-bold text-yellow-500">Air Compressors</h2>
+            <h2 class="mt-4 text-xl font-bold text-yellow-500"> {{ $t("aircompressors") }}</h2>
     
             <p class="mt-1 text-sm text-stone-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci

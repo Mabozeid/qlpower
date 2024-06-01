@@ -4,18 +4,21 @@
     <Header />
     </div>
 
-    <About />
+    <Ourvision />
     
+    <Stats />
+
     <Services />
     <!-- <Testimonials /> -->
+    <!-- <Vision /> -->
+    <Masnory />
 
-     <!-- <Swiper /> -->
+    <Cta />
+
    <Contact />
 </template>
 
 <script setup>
-import Services from '~/components/Services.vue';
-
 </script>
 
 <style lang="scss" scoped>

@@ -7,13 +7,24 @@
     "maintenance": "Maintenance",
     "login": "Login",
     "register": "Register",
-    "hero-head": "Understand User Flow.",
-    "hero-span": "Increase Conversion.",
-    "hero-para": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus numquam ea!",
+    "hero-head": "QUANTUM LEAP POWER",
+    "hero-span": "Egypt's premier maintenance ",
+    "hero-para": "Your pathway to reliable, high-quality electrical maintenance solutions in Egypt.we're committed to excellence affordability and rapid service, ensuring your electrical systems perform optimally, every time",
     "cta-one": "Get Started",
     "cta-two": "Learn More",
-    "lvPanel": "Low Voltage Electrical Panel",
+    "ourVision": "Our Vision",
+    "visionPara": "At Quantum Leap Power, our vision is to be the beacon of innovation and reliability in the electrical maintenance industry in Egypt and beyond. We aspire to set new benchmarks for excellence, leveraging cutting-edge technologies and best practices to exceed the evolving needs of our clients. With a focus on sustainable growth and unwavering commitment to customer satisfaction, we aim to be the trusted partner of choice for all electrical maintenance solutions, driving progres and prosperity in every community we serve.",
+    "ourMission": "Our Mission",
+    "missionPara": "Our mission at Quantum Leap Power is to become the premier maintenance company in Egypt, delivering exceptional service and reliability to our clients in the residential, commercial, and industrial sectors",
     "lvstarted":"Get Started Today",
-    "maintenance-service": " Maintenance Service"
+    "maintenance-service": " Maintenance Service",
+    "generators": "Generators",
+    "hvacsystem": "HVAC Systems",
+    "pumps": "Pumps",
+    "transformers": "Transformers",
+    "lightcurrent":"Light Current",
+    "aircompressors": "Air Compressors",
+    "ourprojects": "Our Projects"
+
 }
   

@@ -1,6 +1,7 @@
 <template>
     <!-- ====== Contact Section Start -->
-    <section class="relative z-10 overflow-hidden bg-white dark:bg-dark py-20 lg:py-[120px]" data-aos="flip-right"  id="contact" :dir="$i18n.locale === 'ar' ? 'rtl' : 'ltr'">
+    <section class="relative z-10 overflow-hidden bg-white dark:bg-dark py-20 lg:py-[120px] bg-[url('/public/4907157.jpg')]"   data-aos="flip-right"  id="contact" :dir="$i18n.locale === 'ar' ? 'rtl' : 'ltr'">
+    <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
       <div class="container mx-auto">
         <div class="flex flex-wrap -mx-4 lg:justify-between">
           <div class="w-full px-4 lg:w-1/2 xl:w-6/12">
@@ -169,12 +170,13 @@
           </div>
         </div>
       </div>
+
+    </div>
+
     </section>
-    <!-- ====== Contact Section End -->
-  </template>
+
+</template>
 
 <script setup>
 import dotSvg from  "@/public/dots.svg";
 </script>
- 
-  

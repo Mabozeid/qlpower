@@ -8,11 +8,7 @@
         <nav aria-label="Global" class="toggleNav">
             <ul class="text-sm">
               <li class="py-2">
-                <a class="text-stone-500 transition hover:text-yellow-400 px-6" href="#about"> {{$t("about")}} </a>
-              </li>
-    
-              <li class="py-2">
-                <a class="text-stone-500 transition hover:text-yellow-400 px-6" href="#"> {{$t("vision")}} </a>
+                <a class="text-stone-500 transition hover:text-yellow-400 px-6" href="#ourVision"> {{$t("vision")}} </a>
               </li>
     
               <li class="py-2">

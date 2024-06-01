@@ -16,12 +16,9 @@
         <div class="hidden md:block sm:h-auto">
           <nav aria-label="Global" class="hidden md:block navVarMenu">
             <ul class="flex items-center gap-6 text-sm">
-              <li>
-                <a class="text-stone-500	 transition hover:text-yellow-400" href="#about"> {{$t("about")}} </a>
-              </li>
-    
-              <li>
-                <a class="text-stone-500	 transition hover:text-yellow-400" href="#"> {{$t("vision")}} </a>
+
+              <li class="py-2">
+                <a class="text-stone-500 transition hover:text-yellow-400 px-6" href="#ourVision"> {{$t("vision")}} </a>
               </li>
     
               <li>
