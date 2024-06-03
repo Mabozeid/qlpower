@@ -210,8 +210,7 @@
   </template> -->
 
 <template>
-  <footer class="bg-gray-100" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom">
+  <footer class="bg-gray-50">
     <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
       <div class="flex justify-center text-teal-600">
         <a href="#" class="flex items-center rtl:space-x-reverse">
@@ -243,7 +242,7 @@
               </li>
 
               <li>
-                <a class="text-stone-500	 transition hover:text-yellow-400" href="#services"> {{$t("our-goals")}} </a>
+                <a class="text-stone-500	 transition hover:text-yellow-400" href="#goals"> {{$t("our-goals")}} </a>
               </li>
 
               <li>

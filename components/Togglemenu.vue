@@ -16,7 +16,7 @@
               </li>
 
               <li class="py-2">
-                <a class="text-stone-500 transition hover:text-yellow-400 px-6" href="#services"> {{$t("our-goals")}} </a>
+                <a class="text-stone-500 transition hover:text-yellow-400 px-6" href="#goals"> {{$t("our-goals")}} </a>
               </li>
 
               <li class="py-2">

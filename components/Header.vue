@@ -35,14 +35,14 @@
           <div class="mt-8 flex flex-wrap justify-center gap-4">
             <a
               class="block w-full rounded border border-white bg-yellow-500 px-12 py-3 text-sm font-medium text-white hover:bg-white hover:text-yellow-500 focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-              href="#"
+              href="#ourVision"
             >
             {{$t("cta-one")}} 
             </a>
     
             <a
               class="block w-full rounded border border-white px-12 py-3 bg-white text-sm font-medium text-stone-500	 hover:bg-yellow-400 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
-              href="#"
+              href="#services"
             >
             {{$t("cta-two")}} 
             </a>

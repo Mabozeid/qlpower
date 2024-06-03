@@ -26,7 +26,7 @@
               </li>
 
               <li>
-                <a class="text-stone-500	 transition hover:text-yellow-400" href="#services"> {{$t("our-goals")}} </a>
+                <a class="text-stone-500	 transition hover:text-yellow-400" href="#goals"> {{$t("our-goals")}} </a>
               </li>
 
               <li>
@@ -41,7 +41,7 @@
         </div>
   
         <div class="flex items-center gap-4">
-          <div class="sm:flex sm:gap-4">
+          <!-- <div class="sm:flex sm:gap-4">
               <a
                 class="block rounded-md bg-yellow-400 px-5 py-2.5 text-sm font-medium transition hover:bg-stone-500 text-white"
                 href="#"
@@ -56,7 +56,7 @@
               {{$t("register")}}
               </a>
             </div>
-  
+   -->
           <div class="block md:hidden">
           <Togglemenu />
           </div>

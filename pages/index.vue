@@ -8,10 +8,12 @@
     
     <Stats />
 
-    <Services />
-    <!-- <Testimonials /> -->
-    <!-- <Vision /> -->
-    <Masnory />
+   <Services />
+   <Masnory />
+
+   <div>
+   <Goals />
+   </div>
 
     <Cta />
 
@@ -20,7 +22,3 @@
 
 <script setup>
 </script>
-
-<style lang="scss" scoped>
-
-</style>
