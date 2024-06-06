@@ -22,7 +22,7 @@
               </li>
     
               <li>
-                <a class="text-stone-500	 transition hover:text-yellow-400" href="#services"> {{$t("services")}} </a>
+                <a class="text-stone-500	 transition hover:text-yellow-400" href="#masnory"> {{$t("services")}} </a>
               </li>
 
               <li>
@@ -30,7 +30,7 @@
               </li>
 
               <li>
-                <a class="text-stone-500	 transition hover:text-yellow-400" href="#"> {{$t("maintenance")}} </a>
+                <a class="text-stone-500	 transition hover:text-yellow-400" href="#services"> {{$t("maintenance")}} </a>
               </li>
     
               <li>

@@ -228,17 +228,13 @@
         itaque neque.
       </p>
   
-      <ul class="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
-        <li>
-                <a class="text-stone-500	 transition hover:text-yellow-400" href="#about"> {{$t("about")}} </a>
+      <ul class="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">    
+              <li>
+                <a class="text-stone-500	 transition hover:text-yellow-400" href="#ourVision"> {{$t("vision")}} </a>
               </li>
     
               <li>
-                <a class="text-stone-500	 transition hover:text-yellow-400" href="#"> {{$t("vision")}} </a>
-              </li>
-    
-              <li>
-                <a class="text-stone-500	 transition hover:text-yellow-400" href="#services"> {{$t("services")}} </a>
+                <a class="text-stone-500	 transition hover:text-yellow-400" href="#masnory"> {{$t("services")}} </a>
               </li>
 
               <li>
@@ -246,11 +242,11 @@
               </li>
 
               <li>
-                <a class="text-stone-500	 transition hover:text-yellow-400" href="#"> {{$t("maintenance")}} </a>
+                <a class="text-stone-500	 transition hover:text-yellow-400" href="#services"> {{$t("maintenance")}} </a>
               </li>
     
               <li>
-                <a class="text-stone-500	 transition hover:text-yellow-400" href="#"> {{$t("contact us")}} </a>
+                <a class="text-stone-500	 transition hover:text-yellow-400" href="#Contact"> {{$t("contact us")}} </a>
               </li>
       </ul>
   

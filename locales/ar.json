@@ -1,9 +1,9 @@
 {
   "about": "عن الشركة",
   "vision": "روئيتنا ومهمتنا",
-  "services": "خدماتنا",
+  "services": "مشاريعنا",
   "our-goals": "اهدافنا",
-  "maintenance": "الصيانة",
+  "maintenance": "خدمات الصيانة ",
   "contact us": "تواصل معنا",
   "login": "دخول",
   "register": "تسجيل",
@@ -31,6 +31,10 @@
    "ourGoals":"أهدافنا",
    "goal1":"  الشهادات واالاعتمادات",
    "goal2":"السلامة وضمان الجودة",
-   "goal3":"المقترح الفريد للبيع "
+   "goal3":"المقترح الفريد للبيع ",
+    "Transactions every 24 hours": "المعاملات اليومية",
+    "Assets under holding": "أصول تحت الحيازة",
+    "New users annually": "عملاء جدد سنويا",
+    "Projects accomplished": "مشاريع أنجزت"
    
 }

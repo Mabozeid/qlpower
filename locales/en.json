@@ -1,11 +1,11 @@
 {
     "about": "About",
     "vision": "Vision & Mission",
-    "services": "Our Services",
+    "services": "Our Projects",
     "our-goals": "Our Goals",
     "contact us": "Contact Us",
-    "maintenance": "Maintenance",
-    "login": "Login",
+    "maintenance": "Maintenance Services",
+    "login": "Login", 
     "register": "Register",
     "hero-head": "QUANTUM LEAP POWER",
     "hero-span": "Egypt's premier maintenance ",
@@ -31,7 +31,12 @@
     "ourGoals":"Our Goals",
     "goal1":"Certifications and Accreditations",
     "goal2":"Safety and Quality Assurance",
-    "goal3":"UNIQUE SELLING PROPOSITION(USP)"
+    "goal3":"UNIQUE SELLING PROPOSITION(USP)",
+    "Transactions every 24 hours": "Transactions every 24 hours",
+    "Assets under holding": "Assets under holding",
+    "New users annually": "New users annually",
+    "Projects accomplished": " Projects accomplished"
+    
 
 }
   

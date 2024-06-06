@@ -1,7 +1,7 @@
 <template>
-    <div class="language-selector pb-1 border-slate-200	rounded-sm">
-      <select v-model="selectedLanguage" @change="changeLanguage" class="mt-1.5 w-full rounded-lg border-gray-300 text-gray-700 sm:text-sm">
-        <option class="py-2 text-bold" v-for="locale in supportedLocales" :key="locale.code" :value="locale.code">{{ locale.name }}</option>
+    <div class="language-selector pb-1 border-slate-200	rounded-xl">
+      <select v-model="selectedLanguage" @change="changeLanguage" class="mt-1.5 w-full sm:text-sm">
+        <option class=" text-bold" v-for="locale in supportedLocales" :key="locale.code" :value="locale.code">{{ locale.name }}</option>
       </select>
     </div>
 </template>
@@ -37,7 +37,7 @@
   <style>
   .language-selector{
     border:1px solid #eee;
-    border-radius: 2px;
+    border-radius: 10px;
   }
 
   </style>

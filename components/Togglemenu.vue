@@ -12,7 +12,7 @@
               </li>
     
               <li class="py-2">
-                <a class="text-stone-500 transition hover:text-yellow-400 px-6" href="#services"> {{$t("services")}} </a>
+                <a class="text-stone-500 transition hover:text-yellow-400 px-6" href="#masnory"> {{$t("services")}} </a>
               </li>
 
               <li class="py-2">
@@ -20,7 +20,7 @@
               </li>
 
               <li class="py-2">
-                <a class="text-stone-500 transition hover:text-yellow-400 px-6" href="#"> {{$t("maintenance")}} </a>
+                <a class="text-stone-500 transition hover:text-yellow-400 px-6" href="#services"> {{$t("maintenance")}} </a>
               </li>
     
               <li class="py-2">

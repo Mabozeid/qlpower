@@ -8,7 +8,7 @@
                 {{$t("ourVision")}} 
               </h2>
     
-              <p class="hidden text-white/90 sm:mt-4 sm:block text-left rtl:text-right">
+              <p class=" text-white/90 sm:mt-4 sm:block text-left rtl:text-right">
                {{ $t("visionPara") }}
               </p>
     
@@ -16,7 +16,7 @@
                 {{$t("ourMission")}} 
               </h2>
     
-              <p class="hidden text-white/90 sm:mt-4 sm:block text-left rtl:text-right">
+              <p class=" text-white/90 sm:mt-4 sm:block text-left rtl:text-right">
                 {{ $t("missionPara") }}
               </p>
 
@@ -34,13 +34,13 @@
           <div class="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
             <img
               alt=""
-              src="/public/car-mechanic-repairs-car-garage-with-tools.jpg"
+              src="/public/AdobeStock_443186345party.jpg"
               class="h-40 w-full object-cover sm:h-56 md:h-full ltr:rounded-l-3xl	rtl:rounded-r-3xl"
             />
     
             <img
               alt=""
-              src="/public/view-exposed-plumbing-pipes.jpg"
+              src="/public/AdobeStock_372514102.jpg"
                class="h-40 w-full object-cover sm:h-56 md:h-full ltr:rounded-r-3xl rtl:rounded-l-3xl"
             />
           </div>
