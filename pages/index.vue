@@ -9,13 +9,16 @@
     <Stats />
 
    <Services />
+
    <Masnory />
+
+   <Cta />
 
    <div>
    <Goals />
    </div>
+   <Swiper />
 
-    <Cta />
 
    <Contact />
 </template>

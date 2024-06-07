@@ -124,6 +124,7 @@
                 <div class="mb-6">
                   <input
                     type="text"
+                    v-model="phone"
                     placeholder="Your Phone"
                     class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none"
                   />
@@ -181,6 +182,14 @@
 </template>
 
 <script setup>
+const mail = useMail()
+
+mail.send({
+  from: 'John Doe',
+  subject: 'Incredible',
+  text: 'This is an incredible test message',
+})
+
 import { ref } from 'vue'
 import { useAxios } from '@vueuse/integrations/useAxios'
 import dotSvg from '@/public/svg/dots.svg'
@@ -192,22 +201,18 @@ const message = ref('')
 
 // Method to send email
 const sendEmail = async () => {
-  try {
-    const { data, error } = await useAxios().post('/api/email', {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    })
-
-    if (error) {
-      console.error('Failed to send email:', error)
-      alert('Failed to send email.')
-    } else {
-      alert('Email sent successfully!')
+       try {
+        await this.$axios.post('/api/email', {
+          name: this.name,
+          email: this.email,
+          phone: this.phone,
+          message: this.message,
+        })
+        alert('Email sent successfully!')
+      } catch (error) {
+        console.error('Failed to send email:', error)
+        alert('Failed to send email.')
+      }
     }
-  } catch (error) {
-    console.error('Failed to send email:', error)
-    alert('Failed to send email.')
-  }
-}
+
 </script>

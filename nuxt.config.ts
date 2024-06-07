@@ -13,12 +13,17 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
     'nuxt-aos',
     'nuxt-swiper',
-    ['nuxt-mail', {
+    ['nuxt-mail', 
+    {
       message: {
-        to: 'm.abozeidr07@gmail.com',
+//        to: 'm.abozeidr07@gmail.com',
+        // to: 'me@mohamedelsayed.net',
+        to: 'commoneer2006@gmail.com',
+
+
       },
       smtp: {
-        host: "http://gator4015.hostgator.com/",
+        host: "gator4015.hostgator.com",
         port: 465,
         auth: {
           user: 'contactus@ql-power.co',
@@ -27,7 +32,6 @@ export default defineNuxtConfig({
         },
       }],
   ],
-   
   i18n: {
     strategy: "no_prefix",
     lazy: false,
