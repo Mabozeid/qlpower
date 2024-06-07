@@ -1,11 +1,4 @@
-<template>
-    <!--
-      Heads up! 👋
-    
-      Plugins:
-        - @tailwindcss/forms
-    -->
-    
+<template> 
     <header class="bg-yellow-200 border border-grey-400" :dir="$i18n.locale === 'ar' ? 'rtl' : 'ltr'">
       <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
         <div class="sm:flex sm:items-center sm:justify-between">

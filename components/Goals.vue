@@ -13,10 +13,7 @@
     <div class="w-full px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 dark:bg-gray-800">
         <div class="flex-shrink-0">
             <div class="flex items-center justify-center w-12 h-12 mx-auto text-white bg-yellow-400 rounded-md">
-                <svg width="20" height="20" fill="currentColor" class="w-6 h-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
-                    </path>
-                </svg>
+              <img :src="certificate" class="h-8" alt="certificate"/>
             </div>
         </div>
         <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
@@ -29,10 +26,7 @@
     <div class="w-full px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 sm:mt-16 md:mt-20 lg:mt-24 dark:bg-gray-800">
         <div class="flex-shrink-0">
             <div class="flex items-center justify-center w-12 h-12 mx-auto text-white bg-yellow-400 rounded-md">
-                <svg width="20" height="20" fill="currentColor" class="w-6 h-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
-                    </path>
-                </svg>
+              <img :src="safety" class="h-8" alt="safety"/>
             </div>
         </div>
         <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
@@ -45,10 +39,7 @@
     <div class="w-full px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 dark:bg-gray-800">
         <div class="flex-shrink-0">
             <div class="flex items-center justify-center w-12 h-12 mx-auto text-white bg-yellow-400 rounded-md">
-                <svg width="20" height="20" fill="currentColor" class="w-6 h-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z">
-                    </path>
-                </svg>
+              <img :src="selling" class="h-8" alt="selling"/>
             </div>
         </div>
         <h3 class="py-4 text-2xl font-semibold text-gray-700 sm:text-xl dark:text-white">
@@ -77,32 +68,8 @@
   </template>
   
   <script setup>
-import generators from '@/assets/icons/004-electric-generator.png'
-  
-  const features = [
-    {
-      name: 'Push to deploy',
-      description:
-        'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
-      icon: generators,
-    },
-    {
-      name: 'SSL certificates',
-      description:
-        'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
-      icon: generators,
-    },
-    {
-      name: 'Simple queues',
-      description:
-        'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
-      icon: generators,
-    },
-    {
-      name: 'Advanced security',
-      description:
-        'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
-      icon: generators,
-    },
-  ]
+import certificate  from '@/public/svg/certificate-outline-badged-svgrepo-com.svg'
+import safety  from '@/public/svg/safety-certificate-svgrepo-com.svg'
+import selling  from '@/public/svg/sell-product-svgrepo-com.svg'
+
   </script>

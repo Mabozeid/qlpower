@@ -8,7 +8,26 @@ export default defineNuxtConfig({
     transpile: ['swiper'],
   },
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', "@nuxtjs/i18n", 'nuxt-aos', 'nuxt-swiper'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    "@nuxtjs/i18n",
+    'nuxt-aos',
+    'nuxt-swiper',
+    ['nuxt-mail', {
+      message: {
+        to: 'm.abozeidr07@gmail.com',
+      },
+      smtp: {
+        host: "http://gator4015.hostgator.com/",
+        port: 465,
+        auth: {
+          user: 'contactus@ql-power.co',
+          pass: 'ioPYayZPP?@d',
+        },
+        },
+      }],
+  ],
+   
   i18n: {
     strategy: "no_prefix",
     lazy: false,

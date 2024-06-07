@@ -104,9 +104,10 @@
           </div>
           <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
             <div class="relative p-8 bg-white rounded-lg shadow-lg dark:bg-dark-2 sm:p-12">
-              <form>
+              <form @submit.prevent="sendEmail">
                 <div class="mb-6">
                   <input
+                    v-model="name"
                     type="text"
                     placeholder="Your Name"
                     class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none"
@@ -115,6 +116,7 @@
                 <div class="mb-6">
                   <input
                     type="email"
+                    v-model="email"
                     placeholder="Your Email"
                     class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none"
                   />
@@ -128,6 +130,7 @@
                 </div>
                 <div class="mb-6">
                   <textarea
+                    v-model="message"
                     rows="6"
                     placeholder="Your Message"
                     class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none"
@@ -136,7 +139,7 @@
                 <div>
                   <button
                     type="submit"
-                    class="w-full p-3 text-white transition border rounded border-primary bg-primary hover:bg-opacity-90"
+                    class="w-full p-3 text-white transition border rounded border-primary bg-yellow-500 hover:bg-opacity-90"
                   >
                     Send Message
                   </button>
@@ -178,5 +181,33 @@
 </template>
 
 <script setup>
-import dotSvg from  "@/public/dots.svg";
+import { ref } from 'vue'
+import { useAxios } from '@vueuse/integrations/useAxios'
+import dotSvg from '@/public/svg/dots.svg'
+
+// Reactive state
+const name = ref('')
+const email = ref('')
+const message = ref('')
+
+// Method to send email
+const sendEmail = async () => {
+  try {
+    const { data, error } = await useAxios().post('/api/email', {
+      name: name.value,
+      email: email.value,
+      message: message.value,
+    })
+
+    if (error) {
+      console.error('Failed to send email:', error)
+      alert('Failed to send email.')
+    } else {
+      alert('Email sent successfully!')
+    }
+  } catch (error) {
+    console.error('Failed to send email:', error)
+    alert('Failed to send email.')
+  }
+}
 </script>
