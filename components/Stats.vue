@@ -13,8 +13,8 @@
   
   <script setup>
   const stats = [
-    { id: 1, name: 'Transactions every 24 hours', value: '44 million' },
-    { id: 2, name: 'Assets under holding', value: '$119 trillion' },
+    { id: 1, name: 'Transactions every 24 hours', value: '44k' },
+    { id: 2, name: 'Assets under holding', value: '119K' },
     { id: 3, name: 'New users annually', value: '46,000' },
     { id: 4, name: 'Projects accomplished', value: '225,000' },
   ]

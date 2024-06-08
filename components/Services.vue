@@ -5,8 +5,7 @@
           <h2 class="text-3xl font-bold sm:text-4xl text-yellow-500">{{$t("maintenance-service")}}</h2>
     
           <p class="mt-4 text-stone-500">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aliquam doloribus
-            nesciunt eos fugiat. Vitae aperiam fugit consequuntur saepe laborum.
+            {{$t("maintenance-para")}}
           </p>
         </div>
     
@@ -22,8 +21,7 @@
             <h2 class="mt-4 text-xl font-bold text-yellow-500">{{$t("generators")}}</h2>
     
             <p class="mt-1 text-sm text-stone-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-              distinctio alias voluptatum blanditiis laudantium.
+              {{$t("generator-para")}}
             </p>
           </a>
     
@@ -37,8 +35,7 @@
             <h2 class="mt-4 text-xl font-bold text-yellow-500">{{ $t("hvacsystem") }}</h2>
     
             <p class="mt-1 text-sm text-stone-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-              distinctio alias voluptatum blanditiis laudantium.
+              {{$t("hvacsystem-para")}}
             </p>
           </a>
     
@@ -52,8 +49,7 @@
             <h2 class="mt-4 text-xl font-bold text-yellow-500">{{ $t("pumps") }}</h2>
     
             <p class="mt-1 text-sm text-stone-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-              distinctio alias voluptatum blanditiis laudantium.
+              {{ $t("pumps-para") }}
             </p>
           </a>
     
@@ -67,8 +63,7 @@
             <h2 class="mt-4 text-xl font-bold text-yellow-500">{{ $t("transformers") }}</h2>
     
             <p class="mt-1 text-sm text-stone-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-              distinctio alias voluptatum blanditiis laudantium.
+              {{ $t("transformers-para") }}
             </p>
           </a>
     
@@ -83,8 +78,7 @@
             <h2 class="mt-4 text-xl font-bold text-yellow-500"> {{ $t("lightcurrent") }}</h2>
     
             <p class="mt-1 text-sm text-stone-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-              distinctio alias voluptatum blanditiis laudantium.
+              {{ $t("lightcurrent-para") }}
             </p>
           </a>
     
@@ -98,8 +92,7 @@
             <h2 class="mt-4 text-xl font-bold text-yellow-500"> {{ $t("aircompressors") }}</h2>
     
             <p class="mt-1 text-sm text-stone-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-              distinctio alias voluptatum blanditiis laudantium.
+              {{ $t("aircompressors-para") }}
             </p>
           </a>
         </div>

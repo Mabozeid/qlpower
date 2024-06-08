@@ -5,8 +5,7 @@
           <h2 class="text-3xl font-bold sm:text-4xl text-yellow-500">{{$t("ourGoals")}}</h2>
     
           <p class="mt-4 text-stone-500">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aliquam doloribus
-            nesciunt eos fugiat. Vitae aperiam fugit consequuntur saepe laborum.
+            {{$t("ourGoals-para")}}
           </p>
         </div>
         <div class="flex-wrap items-center justify-center gap-8 text-center sm:flex">
@@ -20,7 +19,7 @@
           {{$t("goal1")}}
         </h3>
         <p class="py-4 text-gray-500 text-md dark:text-gray-300">
-            Encompassing today’s website design technology to integrated and build solutions relevant to your business.
+          {{$t("goal1-para")}}
         </p>
     </div>
     <div class="w-full px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 sm:mt-16 md:mt-20 lg:mt-24 dark:bg-gray-800">
@@ -33,7 +32,7 @@
           {{$t("goal2")}}
         </h3>
         <p class="py-4 text-gray-500 text-md dark:text-gray-300">
-            Share relevant, engaging, and inspirational brand messages to create a connection with your audience.
+          {{$t("goal2-para")}}
         </p>
     </div>
     <div class="w-full px-4 py-4 mt-6 bg-white rounded-lg shadow-lg sm:w-1/2 md:w-1/2 lg:w-1/4 dark:bg-gray-800">
@@ -46,25 +45,13 @@
           {{$t("goal3")}}
         </h3>
         <p class="py-4 text-gray-500 text-md dark:text-gray-300">
-            Let us help you level up your search engine game, explore our solutions for digital marketing for your business.
+          {{$t("goal3-para")}}
         </p>
     </div>
 </div>
 
       </div>
     </section>
-    <!-- <div class=" sm:py-32">
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="mx-auto max-w-2xl lg:text-center">
-          <h2 class="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2>
-          <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Everything you need to deploy your app</p>
-          <p class="mt-6 text-lg leading-8 text-gray-600">Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.</p>
-        </div>
-        <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-
-        </div>
-      </div>
-    </div> -->
   </template>
   
   <script setup>

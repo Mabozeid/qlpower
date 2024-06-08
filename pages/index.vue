@@ -12,12 +12,10 @@
 
    <Masnory />
 
-   <Cta />
-
    <div>
    <Goals />
    </div>
-   <Swiper />
+  <Cta />
 
 
    <Contact />

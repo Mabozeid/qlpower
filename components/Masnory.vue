@@ -6,8 +6,7 @@
           <h2 class="text-3xl font-bold sm:text-4xl text-yellow-500">{{ $t("ourprojects") }}</h2>
     
           <p class="mt-4 text-stone-500">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aliquam doloribus
-            nesciunt eos fugiat. Vitae aperiam fugit consequuntur saepe laborum.
+            {{ $t("ourprojects-para") }}
           </p>
         </div>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 px-4 py-16 sm:px-6 lg:px-8">
@@ -18,12 +17,13 @@
                 <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
                 <div class="capMasory flex justify-center">
                     <span class="self-center text-center  leading-normal  masnoryTitle">
-                        Travel Item
+                        Low Voltage Electrical Panel
                     </span>
                 </div>
                </div>
 
             </div>
+
             <div class="relative overflow-hidden masnoryItem">
                 <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
                 <div class="capMasory flex justify-center">
@@ -168,15 +168,16 @@
     position: absolute;
     bottom: 0;
 }
+
 .masnoryItem:hover{
-border: 1px solid #c0bfbf;
 border-radius: 10px;
+/* border: 1px dotted #ddd;  */
 }
+
 .masnoryItem:hover .capMasory{
-
     transform: translateY(0);
+    border: 1px  solid #ddd;
 }
-
 .cta {
     position: absolute;
     transform: translate(-50%, -50%);

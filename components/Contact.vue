@@ -8,15 +8,13 @@
 				<div class="flex flex-wrap -mx-4 lg:justify-between">
 					<div class="w-full px-4 lg:w-1/2 xl:w-6/12">
 						<div class="mb-12 max-w-[570px] lg:mb-0">
-							<span class="block mb-4 text-base font-semibold text-primary"> Contact Us </span>
+							<span class="block mb-4 text-base font-semibold text-primary">{{$t("contact-smhead")}} </span>
 							<h2
 								class="text-dark dark:text-white mb-6 text-[32px] font-bold capitalize text-yellow-400  sm:text-[40px] lg:text-[36px] xl:text-[40px]">
-								get in Touch with us
+								{{$t("contact-head")}}
 							</h2>
 							<p class="text-base leading-relaxed text-body-color dark:text-dark-6 mb-9">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius tempor incididunt
-								ut labore et dolore magna aliqua. Ut enim adiqua minim veniam quis nostrud
-								exercitation ullamco
+								{{$t("contact-para")}}
 							</p>
 							<div class="mb-8 flex w-full max-w-[370px]">
 								<div
@@ -29,9 +27,9 @@
 									</svg>
 								</div>
 								<div class="w-full">
-									<h4 class="mb-1 text-xl font-bold text-dark dark:text-white">Our Location</h4>
+									<h4 class="mb-1 text-xl font-bold text-dark dark:text-white">{{$t("location")}}</h4>
 									<p class="text-base text-body-color dark:text-dark-6">
-										99 S.t Jomblo Park Pekanbaru 28292. Indonesia
+										{{$t("location-map")}}
 									</p>
 								</div>
 							</div>
@@ -59,8 +57,8 @@
 									</svg>
 								</div>
 								<div class="w-full">
-									<h4 class="mb-1 text-xl font-bold text-dark dark:text-white">Phone Number</h4>
-									<p class="text-base text-body-color dark:text-dark-6">(+62)81 414 257 9980</p>
+									<h4 class="mb-1 text-xl font-bold text-dark dark:text-white">{{$t("phone")}}</h4>
+									<p class="text-base text-body-color dark:text-dark-6">123-456-7890+</p>
 								</div>
 							</div>
 							<div class="mb-8 flex w-full max-w-[370px]">
@@ -74,8 +72,8 @@
 									</svg>
 								</div>
 								<div class="w-full">
-									<h4 class="mb-1 text-xl font-bold text-dark dark:text-white">Email Address</h4>
-									<p class="text-base text-body-color dark:text-dark-6">info@yourdomain.com</p>
+									<h4 class="mb-1 text-xl font-bold text-dark dark:text-white">{{$t("email")}}</h4>
+									<p class="text-base text-body-color dark:text-dark-6">Sales@Quantum-Leap.com</p>
 								</div>
 							</div>
 						</div>
@@ -85,24 +83,24 @@
 							<form @submit.prevent="sendEmail">
 								<div class="mb-6">
 									<input v-model="name" type="text" placeholder="Your Name"
-										class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none" />
+										class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none" required />
 								</div>
 								<div class="mb-6">
 									<input type="email" v-model="email" placeholder="Your Email"
-										class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none" />
+										class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none" required />
 								</div>
 								<div class="mb-6">
 									<input type="text" v-model="phone" placeholder="Your Phone"
-										class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none" />
+										class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none" required />
 								</div>
 								<div class="mb-6">
-									<textarea v-model="message" rows="6" placeholder="Your Message"
+									<textarea v-model="message" rows="6" placeholder="Your Message" required
 										class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none"></textarea>
 								</div>
 								<div>
 									<button type="submit"
 										class="w-full p-3 text-white transition border rounded border-primary bg-yellow-500 hover:bg-opacity-90">
-										Send Message
+										{{$t("send-sms")}}
 									</button>
 								</div>
 							</form>
@@ -153,21 +151,70 @@ const sendEmail = async () => {
 			from: 'contactus@ql-power.co',
 			subject: 'contact us form',
 			html: `
-      <h3>Contact Us Form Submission</h3>
-      <table border="1">
-        <tr>
-          <th>Name</th><td>${name.value}</td>
-        </tr>
-        <tr>
-          <th>Email</th><td>${email.value}</td>
-        </tr>
-        <tr>
-          <th>Phone</th><td>${phone.value}</td>
-        </tr>
-        <tr>
-          <th>Message</th><td>${message.value}</td>
-        </tr>
-      </table>
+        <style type="text/css">
+            .element{
+                text-shadow:#000000;
+                font-size:16px;
+                color: #000000;
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+            }
+            .title{
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                text-shadow:#000000;
+                font-size:16px;
+                color:#FFFFFF;
+            }
+        </style>
+        <table style="direction: ltr;" class="maintable" width='100%' cellspacing='0' cellpadding='2' bgcolor="#cdcbcc">
+            <tr bgcolor='#01b1d7 '>
+                <td height='30' colspan='2'>
+					<h3>Contact Us Form Submission</h3>
+                </td>
+            </tr>
+            <tr>
+                <td colspan='2' align='center' height="30"></td>
+            </tr>
+            <tr>
+                <td align='left' style='color:#FFFF00'>
+                    <font class="element">Name:</font>
+                </td>
+                <td>
+                    <font class="element">${name.value}</font>
+                </td>
+            </tr>
+            <tr>
+                <td align='left' style='color:#FFFF00'>
+                    <font class="element">Email:</font>
+                </td>
+                <td>
+                    <font class="element">${email.value}</font>
+                </td>
+            </tr>
+            <tr>
+                <td align='left' style='color:#FFFF00'>
+                    <font class="element">phone:</font>
+                </td>
+                <td>
+                    <font class="element">${phone.value}</font>
+                </td>
+            </tr>
+            <tr>
+                <td align='left' style='color:#FFFF00'>
+                    <font class="element">Message:</font>
+                </td>
+                <td>
+                    <font class="element">${message.value}</font>
+                </td>
+            </tr>
+            <tr>
+                <td colspan='2' height="30"></td>
+            </tr>
+            <tr>
+                <td height='30' colspan='2' bgcolor='#01b1d7 '></td>
+            </tr>
+        </table>
+    </body>
+</html>
     `,
 		})
 		alert('Email sent successfully!')
