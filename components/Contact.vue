@@ -73,7 +73,7 @@
 								</div>
 								<div class="w-full">
 									<h4 class="mb-1 text-xl font-bold text-dark dark:text-white">{{$t("email")}}</h4>
-									<p class="text-base text-body-color dark:text-dark-6">Sales@Quantum-Leap.com</p>
+									<p class="text-base text-body-color dark:text-dark-6">Sales@ql-power.co</p>
 								</div>
 							</div>
 						</div>

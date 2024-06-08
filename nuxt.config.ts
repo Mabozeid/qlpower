@@ -12,7 +12,6 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     "@nuxtjs/i18n",
     'nuxt-aos',
-    'nuxt-swiper',
 	  ['nuxt-mail',
 		  {
 			  message: {
@@ -47,16 +46,5 @@ export default defineNuxtConfig({
         file: 'ar.json'
       },
     ],
-},
-plugins: [
-  '~/plugins/vue-lazyload.js'
-],
-swiper: {
-  // Swiper options
-  //----------------------
-  prefix: 'Swiper',
-  styleLang: 'css',
-  modules: ['navigation', 'pagination'] 
-  // modules: ['navigation', 'pagination']   , // all modules are imported by default
 },
 })

@@ -14,7 +14,7 @@
             <div>
                 
                 <div class="relative overflow-hidden masnoryItem">
-                <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
+                <img class="h-auto max-w-full rounded-lg" src="/public/AdobeStock_372514102.jpg" alt="">
                 <div class="capMasory flex justify-center">
                     <span class="self-center text-center  leading-normal  masnoryTitle">
                         Low Voltage Electrical Panel
@@ -25,54 +25,20 @@
             </div>
 
             <div class="relative overflow-hidden masnoryItem">
-                <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
+                <img class="h-auto max-w-full rounded-lg" src="/public/renovation-profile-concentrated-man-touching-screwdriver-lamp-kitchen-range-hood.jpg" alt="">
                 <div class="capMasory flex justify-center">
                     <span class="self-center text-center  leading-normal  masnoryTitle">
-                        Travel Item
+                        Fixing Light
                     </span>
                 </div>
                </div>
 
 
             <div class="relative overflow-hidden masnoryItem">
-                <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="">
+                <img class="h-auto max-w-full rounded-lg" src="/public/Business-Line-FLS-2-1-1024x786.png" alt="">
                 <div class="capMasory flex justify-center">
                     <span class="self-center text-center  leading-normal  masnoryTitle">
-                        Travel Item
-                    </span>
-                </div>
-               </div>
-
-        </div>
-
-        <div class="grid gap-4">
-
-
-            <div class="relative overflow-hidden masnoryItem">
-                <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="">
-                <div class="capMasory flex justify-center">
-                    <span class="self-center text-center  leading-normal  masnoryTitle">
-                        Travel Item
-                    </span>
-                </div>
-               </div>
-
-
-
-            <div class="relative overflow-hidden masnoryItem">
-                <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="">
-                <div class="capMasory flex justify-center">
-                    <span class="self-center text-center  leading-normal  masnoryTitle">
-                        Travel Item
-                    </span>
-                </div>
-               </div>
-
-            <div class="relative overflow-hidden masnoryItem">
-                <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="">
-                <div class="capMasory flex justify-center">
-                    <span class="self-center text-center  leading-normal  masnoryTitle">
-                        Travel Item
+                        Air Compressors
                     </span>
                 </div>
                </div>
@@ -81,29 +47,63 @@
 
         <div class="grid gap-4">
 
+
             <div class="relative overflow-hidden masnoryItem">
-                <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt="">
+                <img class="h-auto max-w-full rounded-lg" src="/public/service-mm.jpg" alt="">
                 <div class="capMasory flex justify-center">
                     <span class="self-center text-center  leading-normal  masnoryTitle">
-                        Travel Item
+                        Light current
+                    </span>
+                </div>
+               </div>
+
+               
+
+            <div class="relative overflow-hidden masnoryItem">
+                <img class="h-auto max-w-full rounded-lg" src="/public/mechanic-repairing-bicycle.jpg" alt="">
+                <div class="capMasory flex justify-center">
+                    <span class="self-center text-center  leading-normal  masnoryTitle">
+                        Checking Air commpressors
                     </span>
                 </div>
                </div>
 
             <div class="relative overflow-hidden masnoryItem">
-                <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="">
+                <img class="h-auto max-w-full rounded-lg" src="/public/AdobeStock_541806587.jpg" alt="">
                 <div class="capMasory flex justify-center">
                     <span class="self-center text-center  leading-normal  masnoryTitle">
-                        Travel Item
+                        Setup Electrical Panel
+                    </span>
+                </div>
+               </div>
+
+        </div>
+
+        <div class="grid gap-4">
+
+            <div class="relative overflow-hidden masnoryItem">
+                <img class="h-auto max-w-full rounded-lg" src="/public/AdobeStock_409470718.jpg" alt="">
+                <div class="capMasory flex justify-center">
+                    <span class="self-center text-center  leading-normal  masnoryTitle">
+                        Current Soluations
                     </span>
                 </div>
                </div>
 
             <div class="relative overflow-hidden masnoryItem">
-                <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="">
+                <img class="h-auto max-w-full rounded-lg" src="/public/transformers.jpg" alt="">
                 <div class="capMasory flex justify-center">
                     <span class="self-center text-center  leading-normal  masnoryTitle">
-                        Travel Item
+                        Transformers
+                    </span>
+                </div>
+               </div>
+
+            <div class="relative overflow-hidden masnoryItem">
+                <img class="h-auto max-w-full rounded-lg" src="/public/bernd-dittrich-JKTTnxWhNeg-unsplash.jpg" alt="">
+                <div class="capMasory flex justify-center">
+                    <span class="self-center text-center  leading-normal  masnoryTitle">
+                        Generators
                     </span>
                 </div>
                </div>
@@ -112,28 +112,27 @@
         <div class="grid gap-4">
 
             <div class="relative overflow-hidden masnoryItem">
-                <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="">
+                <img class="h-auto max-w-full rounded-lg" src="/public/steel-pipelines-cables-plant.jpg" alt="">
                 <div class="capMasory flex justify-center">
                     <span class="self-center text-center  leading-normal  masnoryTitle">
-                        Travel Item
+                        Pump Checking
+                    </span>
+                </div>
+               </div>
+               <div class="relative overflow-hidden masnoryItem">
+                <img class="h-auto max-w-full rounded-lg" src="/public/voltage-switchboard-with-circuit-breakers-are-positions-big-electric-box-electrical-distribution-panel-temporary-electric-cables-are-switched.jpg" alt="">
+                <div class="capMasory flex justify-center">c
+                    <span class="self-center text-center  leading-normal  masnoryTitle">
+                        Assemply Process
                     </span>
                 </div>
                </div>
 
                <div class="relative overflow-hidden masnoryItem">
-                <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
+                <img class="h-auto max-w-full rounded-lg" src="/public/man-spring-electrical-industrial-professional-electricity-skill-energy-worker-power-art-lines-helmet-wires-cables-wiring-electrician-maintenance-voltage-occupation-1328123.jpg" alt="">
                 <div class="capMasory flex justify-center">
                     <span class="self-center text-center  leading-normal  masnoryTitle">
-                        Travel Item
-                    </span>
-                </div>
-               </div>
-
-               <div class="relative overflow-hidden masnoryItem">
-                <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="">
-                <div class="capMasory flex justify-center">
-                    <span class="self-center text-center  leading-normal  masnoryTitle">
-                        Travel Item
+                        Light Maintenance
                     </span>
                 </div>
                </div>
@@ -167,6 +166,7 @@
     border-radius: 0;
     position: absolute;
     bottom: 0;
+    border: 1px  solid #ddd;
 }
 
 .masnoryItem:hover{
@@ -176,7 +176,6 @@ border-radius: 10px;
 
 .masnoryItem:hover .capMasory{
     transform: translateY(0);
-    border: 1px  solid #ddd;
 }
 .cta {
     position: absolute;
