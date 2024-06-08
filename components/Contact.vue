@@ -83,18 +83,18 @@
 							<form @submit.prevent="sendEmail">
 								<div class="mb-6">
 									<input v-model="name" type="text" placeholder="Your Name"
-										class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none" required />
+										class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none" required validate-on-blur />
 								</div>
 								<div class="mb-6">
-									<input type="email" v-model="email" placeholder="Your Email"
-										class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none" required />
+									<input type="email" v-model="email" placeholder="Your Email" :rules="emailRules"
+										class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none" required validate-on-blur />
 								</div>
 								<div class="mb-6">
-									<input type="text" v-model="phone" placeholder="Your Phone"
-										class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none" required />
+									<input type="text" v-model="phone" placeholder="Your Phone" :rules="phoneRules"
+										class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none" required validate-on-blur />
 								</div>
 								<div class="mb-6">
-									<textarea v-model="message" rows="6" placeholder="Your Message" required
+									<textarea v-model="message" rows="6" placeholder="Your Message" required validate-on-blur
 										class="border-stroke dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none"></textarea>
 								</div>
 								<div>
@@ -141,7 +141,14 @@ const name = ref('')
 const email = ref('')
 const phone = ref('')
 const message = ref('')
-
+const emailRules = [
+  v => !!v || 'E-mail is required',
+  v => /.+@.+\..+/.test(v) || "E-mail must be valid"
+]
+const phoneRules = [
+  v => !!v || 'phone is required',
+  v => (v && v.length <= 10) || 'phone must be 11 Digits'
+]
 // Method to send email
 const sendEmail = async () => {
 	try {
