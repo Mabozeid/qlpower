@@ -15,7 +15,7 @@ export default defineNuxtConfig({
 	  ['nuxt-mail',
 		  {
 			  message: {
-				  to: 'dev@ql-power.co' // this will be changed to client mail that he will receive mail on it 
+				  to: 'Sales@ql-power.co' // this will be changed to client mail that he will receive mail on it 
 			  },
 			  smtp: {
 				  host: "gator4015.hostgator.com",
