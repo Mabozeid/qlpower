@@ -15,7 +15,7 @@
             >
                 <a
                 class="group inline-block rounded-full bg-gradient-to-r from-yellow-200 via-stone-300 to-stone-500 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75 border-2 border-white"
-                href="#"
+                href="#contact"
                 >
                 <span
                     class="block rounded-full bg-white px-8 text-stone-500 py-3 text-sm font-medium group-hover:bg-transparent hover:text-white"

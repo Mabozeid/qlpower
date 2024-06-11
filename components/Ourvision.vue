@@ -22,7 +22,7 @@
 
               <div class="mt-4 md:mt-8">
                 <a
-                  href="#"
+                  href="#contact"
                   class="inline-block rounded border border-white bg-white px-12 py-3 text-sm font-medium text-yellow-400 transition hover:bg-yellow-500 hover:text-white focus:outline-none focus:ring focus:ring-yellow-400"
                 >
                 {{$t("lvstarted")}} 

@@ -6,8 +6,6 @@
 
     <Ourvision />
     
-    <Stats />
-
    <Services />
 
    <Masnory />

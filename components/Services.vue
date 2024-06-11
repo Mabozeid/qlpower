@@ -12,7 +12,7 @@
         <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <a
             class="serviceItem block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white"
-            href="#"
+            href="#contact"
           >
             <div class="Service-img-box">
               <img :src="generators" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
@@ -27,7 +27,7 @@
     
           <a
             class="serviceItem block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white"
-            href="#"
+            href="#contact"
           >
           <div class="Service-img-box">
             <img :src="hvacSystem" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
@@ -41,7 +41,7 @@
     
           <a
             class=" serviceItem block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white"
-            href="#"
+            href="#contact"
           >
           <div class="Service-img-box">
             <img :src="pumps" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
@@ -55,7 +55,7 @@
     
           <a
             class=" serviceItem block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white"
-            href="#"
+            href="#contact"
           >
           <div class="Service-img-box">
             <img :src="transforms" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
@@ -69,7 +69,7 @@
     
           <a
             class="serviceItem block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white"
-            href="#"
+            href="#contact"
           >
           <div class="Service-img-box">
            <img :src="lightCurrent" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
@@ -84,7 +84,7 @@
     
           <a
             class="serviceItem block rounded-xl border border-gray-200 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10 bg-white"
-            href="#"
+            href="#contact"
           >
           <div class="Service-img-box">
             <img :src="airCompressors" alt="My Icon"  class="size-12 rounded-lg inline-block"/>
