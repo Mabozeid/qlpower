@@ -17,6 +17,7 @@
 								{{$t("contact-para")}}
 							</p>
 							<div class="mb-8 flex w-full max-w-[370px]">
+                            <a href="https://www.google.com/maps/search/qlpower+1+Mostafa+El-Nahas,+Nasr+City,+Cairo,%C2%A0Egypt/@30.0538571,31.3372242,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="flex">
 								<div
 									class="bg-primary/5 text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded sm:h-[70px] sm:max-w-[70px]">
 									<svg width="32" height="32" viewBox="0 0 32 32" fill="none"
@@ -32,8 +33,10 @@
 										{{$t("location-map")}}
 									</p>
 								</div>
+							</a>
 							</div>
 							<div class="mb-8 flex w-full max-w-[370px]">
+                            <a href="tel:+201060231650" class="flex">
 								<div
 									class="bg-primary/5 text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded sm:h-[70px] sm:max-w-[70px]">
 									<svg width="32" height="32" viewBox="0 0 32 32" fill="none"
@@ -58,10 +61,12 @@
 								</div>
 								<div class="w-full">
 									<h4 class="mb-1 text-xl font-bold text-dark dark:text-white">{{$t("phone")}}</h4>
-									<p class="text-base text-body-color dark:text-dark-6">123-456-7890+</p>
+									<p class="text-base text-body-color dark:text-dark-6">+201060231650</p>
 								</div>
+							</a>
 							</div>
 							<div class="mb-8 flex w-full max-w-[370px]">
+                              <a href="mailto:Sales@ql-power.co" class="flex" > 
 								<div
 									class="bg-primary/5 text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded sm:h-[70px] sm:max-w-[70px]">
 									<svg width="32" height="32" viewBox="0 0 32 32" fill="none"
@@ -75,6 +80,12 @@
 									<h4 class="mb-1 text-xl font-bold text-dark dark:text-white">{{$t("email")}}</h4>
 									<p class="text-base text-body-color dark:text-dark-6">Sales@ql-power.co</p>
 								</div>
+							  </a>
+							</div>
+
+							<div>
+                            <img  class="rounded-lg"  width="100px"  height="100px"         
+							src="/public/Qlpower-Qrcode.jpg" alt="Qrcode"/>
 							</div>
 						</div>
 					</div>
